@@ -18,6 +18,6 @@ function getIt()
 function frameIt()
 {
   $("img").on("load",function(e){
-    $("img").classList.add("tasty");
+    $("img").class = "tasty";
   })
 }
