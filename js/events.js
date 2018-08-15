@@ -1,8 +1,7 @@
 //define functions here
 
 $(document).ready(function(){
-
-
+  
 getIt();
 frameIt();
 pressIt();
@@ -35,5 +34,7 @@ function pressIt()
 
 function submitIt()
 {
-  $("form")
+  $("form").on("submit",function{
+    
+  })
 }
