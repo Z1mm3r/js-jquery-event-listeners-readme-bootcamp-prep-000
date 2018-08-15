@@ -17,7 +17,7 @@ function getIt()
 
 function frameIt()
 {
-  $("img").on("load",function(){
-    $("img").prepend(".tasty");
+  $("img").on("load",function(e){
+    
   })
 }
