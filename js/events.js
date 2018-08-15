@@ -18,6 +18,6 @@ function getIt()
 function frameIt()
 {
   $("img").on("load",function(){
-    $(".tasty").prepend("border-color:red");
+    $("img").prepend("")
   })
 }
